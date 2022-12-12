@@ -6,10 +6,12 @@
 
 ### Cloning the development version of gapseq
 git clone https://github.com/jotech/gapseq
+
 cd gapseq
 
 ### Create and activate a conda environment "gapseq-dev"
 conda env create -n gapseq-dev --file gapseq_env.yml
+
 conda activate gapseq-dev
 
 ### install one additional R-package
