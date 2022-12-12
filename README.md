@@ -33,6 +33,7 @@ bash ./src/update_sequences.sh
 /path/to/gapseq/directory/./gapseq find -b 200 -p all -t Bacteria -m Bacteria <Bin_Name>.fa
 
 ## Transporter prediction
+##### input file is fasta or fna file for genome
 /path/to/gapseq/directory/./gapseq find-transport -b 200 <Bin_Name>.fa
 
 ## Draft network reconstruction
